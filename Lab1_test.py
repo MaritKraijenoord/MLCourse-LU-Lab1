@@ -4,6 +4,8 @@ import pytest
 
 import Lab1
 
+# DO NOT CHANGE THIS FILE!!!
+
 
 def test_plus_one():
     assert Lab1.plus_one(1) == 2
