@@ -73,7 +73,7 @@ def test_NNClassifier():
 
     prediction = classifier.predict(x_test)  # Make a prediction about the test data
 
-    accuracy = np.sum(y_test, prediction) / len(y_test)
+    accuracy = np.sum(y_test == prediction) / len(y_test)
     target_accuracy = 0.75
     assert accuracy >= target_accuracy, f'Accuracy {accuracy} != {target_accuracy}'
 
@@ -93,6 +93,6 @@ def test_NNC_imbalanced():
     clf.fit(x_train, y_train)  # Learn from the training data
 
     prediction = clf.predict(x_test)  # Make a prediction about the test data
-    accuracy = np.sum(y_test, prediction) / len(y_test)
+    accuracy = np.sum(y_test == prediction) / len(y_test)
     target_accuracy = 0.65
     assert accuracy >= target_accuracy, f'Accuracy {accuracy} != {target_accuracy}'
