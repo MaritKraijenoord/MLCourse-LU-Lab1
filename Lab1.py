@@ -10,9 +10,10 @@ def plus_one(number):
     return 1 + number
 
 
-def hello():
+def hello(text):
     """ Should return 'Hello Text!' """
-    raise NotImplementedError('Your code here')
+    text = text.capitalize()
+    return f"Hello {text}!"
 
 
 def roll_array(array, steps, direction='left'):
