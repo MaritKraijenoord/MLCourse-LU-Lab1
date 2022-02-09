@@ -24,8 +24,7 @@ Although this lab is not graded we strongly recommend you to follow this lab, we
        
        * If it works, open `Lab1.ipynb` and continue with the explanations and tasks there.
        
-        * If that doesn't work, you first have to install Jupyter notebook. You may also have to install other packages: `numpy`, `pandas`, `matplotlib` and `pytest`.
-		* You can do this either via pip or anaconda 
+        * If that doesn't work, you first have to install Jupyter notebook. You may also have to install other packages: `numpy`, `pandas`, `matplotlib` and `pytest`. You can do this either via pip or anaconda.
     2. To use **Google Colab**, upload `Lab1.ipynb` and proceed with the notebook from there. 
 
 If you have difficulty installing a needed package, we recommend either asking for help or switching to Colab. In Colab, to install a package, you can run a cell with the command:
