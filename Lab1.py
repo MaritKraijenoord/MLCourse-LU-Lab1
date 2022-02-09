@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 # CHANGE ONLY THIS FILE!!!
 
-
 def plus_one(number):
     """ Adds 1, if 'number' is a number. """
     return 1 + number
