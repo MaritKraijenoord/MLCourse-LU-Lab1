@@ -15,7 +15,7 @@ Although this lab is not graded we strongly recommend you to follow this lab, we
 	Open Git bash terminal and navigate to the location on your computer where you want the lab to be downloaded to.
 	Execute the following command: 
 	
-	> git clone https://github.com/MLCourse-LU/MLCourse-LU-Lab1.git
+	> git clone "The link of your assignment repo" 
 	
 	Note that you might be asked for authentication if so consult the GitHub help pages and follow the instructions there.
 	
