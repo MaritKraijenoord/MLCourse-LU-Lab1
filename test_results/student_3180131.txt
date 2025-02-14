@@ -1,0 +1,29 @@
+test_OneNearestNeighborClassifier (unit_test.TestClass.test_OneNearestNeighborClassifier) ... ERROR
+test_hello (unit_test.TestClass.test_hello) ... ok
+test_roll_array (unit_test.TestClass.test_roll_array) ... ok
+test_surface_class (unit_test.TestClass.test_surface_class) ... ok
+
+======================================================================
+ERROR: test_OneNearestNeighborClassifier (unit_test.TestClass.test_OneNearestNeighborClassifier)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\amkra\OneDrive - Universiteit Leiden\Jaar 3 Semester 2\Machine Learning\MLCourse-LU-Lab1\unit_test.py", line 75, in test_OneNearestNeighborClassifier
+    accuracy = np.sum(y_test == prediction) / len(y_test)
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amkra\Anaconda\envs\MLlab1\Lib\site-packages\pandas\core\ops\common.py", line 76, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amkra\Anaconda\envs\MLlab1\Lib\site-packages\pandas\core\arraylike.py", line 40, in __eq__
+    return self._cmp_method(other, operator.eq)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amkra\Anaconda\envs\MLlab1\Lib\site-packages\pandas\core\series.py", line 6119, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\amkra\Anaconda\envs\MLlab1\Lib\site-packages\pandas\core\ops\array_ops.py", line 321, in comparison_op
+    raise ValueError(
+ValueError: ('Lengths must match to compare', (100,), (1,))
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.082s
+
+FAILED (errors=1)
